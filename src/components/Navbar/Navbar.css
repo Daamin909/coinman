@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css2?family=Faculty+Glyphic&display=swap");
+.navbar {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  padding: 0 1vh;
+  height: 8vh;
+  background-color: #22577a;
+}
+
+@media (min-width: 768px) {
+  .navbar {
+    padding: 0 0.75rem;
+  }
+}
+
+.navbar-branding {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  background-color: transparent;
+}
+.navbar-heading {
+  font-family: "Faculty Glyphic", system-ui;
+  font-size: 2.1rem;
+  margin: 7px;
+  color: #c7f9cc;
+  font-weight: 900;
+}
+
+#logo {
+  height: 4rem;
+  margin: 7px;
+}
+
+@media (max-width: 600px) {
+  .navbar-heading {
+    font-size: 1.75rem;
+  }
+
+  #logo {
+    height: 2.5rem;
+  }
+}

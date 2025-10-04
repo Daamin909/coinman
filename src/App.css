@@ -1,0 +1,10 @@
+.main {
+  display: flex;
+  box-sizing: border-box;
+}
+
+.app {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
